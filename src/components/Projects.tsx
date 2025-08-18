@@ -7,35 +7,35 @@ const Projects: React.FC = () => {
       title: 'Fitness and Nutrition Tracker',
       description: 'A comprehensive CLI application for managing clients\' fitness routines and nutritional plans with enhanced data accuracy.',
       technologies: ['Python', 'Flask', 'SQLAlchemy', 'CLI'],
-      image: 'src/assets/nutrition.jpg',
+      image: '/nutrition.jpg',
       features: ['Client Management', 'Workout Tracking', 'Nutrition Planning', 'Data Analytics']
     },
     {
       title: 'Book-A-Room',
       description: 'React.js and TypeScript application for booking meeting rooms with real-time availability updates and intuitive navigation.',
       technologies: ['React.js', 'TypeScript', 'Real-time Updates'],
-      image: 'src/assets/book-a-room.jpg',
+      image: '/book-a-room.jpg',
       features: ['Real-time Availability', 'Room Booking', 'User Dashboard', 'Calendar Integration']
     },
     {
       title: 'Book-A-Meal',
       description: 'Collaborative meal ordering platform featuring dynamic menus and secure order processing for enhanced user experience.',
       technologies: ['HTML5', 'CSS3', 'JavaScript', 'Python', 'Flask'],
-      image: './src/assets/book-a-meal.jpg',
+      image: '/book-a-meal.jpg',
       features: ['Dynamic Menus', 'Order Processing', 'Payment Integration', 'User Authentication']
     },
     {
       title: 'Gym Management System',
       description: 'Comprehensive system for gym operations including member management and class scheduling to improve administrative efficiency.',
       technologies: ['Python', 'Flask', 'Database Management'],
-      image: 'src/assets/gym.jpg',
+      image: '/gym.jpg',
       features: ['Member Management', 'Class Scheduling', 'Payment Tracking', 'Equipment Management']
     },
     {
       title: 'Car Rental Service',
       description: 'Platform for managing car rentals with vehicle listings, booking management, and user authentication.',
       technologies: ['Full Stack', 'User Authentication', 'Booking System'],
-      image: '/src/assets/car-rental.jpg',
+      image: '/car-rental.jpg',
       features: ['Vehicle Listings', 'Booking Management', 'User Profiles', 'Payment Processing']
     }
   ];
