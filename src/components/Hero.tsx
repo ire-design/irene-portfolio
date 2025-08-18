@@ -9,7 +9,7 @@ const Hero: React.FC = () => {
         <div className="max-w-4xl mx-auto">
           <div className="mb-8">
             <img
-              src="imm.jpeg"
+              src="/imm.jpeg"
               alt="Irene Musau"
               className="w-50 h-50 rounded-full mx-auto mb-6 object-cover shadow-lg ring-4 ring-white"
             />
