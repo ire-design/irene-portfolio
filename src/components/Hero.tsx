@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
             <img
               src="src/assets/imm.jpeg"
               alt="Irene Musau"
-              className="w-90 h-90 rounded-full mx-auto mb-6 object-cover shadow-lg ring-4 ring-white"
+              className="w-50 h-50 rounded-full mx-auto mb-6 object-cover shadow-lg ring-4 ring-white"
             />
           </div>
           
