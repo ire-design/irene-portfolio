@@ -7,7 +7,7 @@ const Projects: React.FC = () => {
       title: 'Fitness and Nutrition Tracker',
       description: 'A comprehensive CLI application for managing clients\' fitness routines and nutritional plans with enhanced data accuracy.',
       technologies: ['Python', 'Flask', 'SQLAlchemy', 'CLI'],
-      image: 'https://images.pexels.com/photos/4162438/pexels-photo-4162438.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
+      image: 'src/assets/gym.jpg',
       features: ['Client Management', 'Workout Tracking', 'Nutrition Planning', 'Data Analytics']
     },
     {
@@ -28,7 +28,7 @@ const Projects: React.FC = () => {
       title: 'Gym Management System',
       description: 'Comprehensive system for gym operations including member management and class scheduling to improve administrative efficiency.',
       technologies: ['Python', 'Flask', 'Database Management'],
-      image: 'https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
+      image: 'src/assets/gym.jpg',
       features: ['Member Management', 'Class Scheduling', 'Payment Tracking', 'Equipment Management']
     },
     {
