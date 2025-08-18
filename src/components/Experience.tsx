@@ -8,7 +8,7 @@ const Experience: React.FC = () => {
       title: 'ICT Intern',
       company: 'Kenya Airport Authorities, JKIA',
       location: 'Nairobi, Kenya',
-      period: 'May 2026 - Present',
+      period: 'May 2026 - August 2026',
       description: 'Assisting the ICT department with technical support, network troubleshooting, system maintenance, and user support across various airport systems.',
       responsibilities: [
         'Technical support for airport systems',
@@ -24,10 +24,9 @@ const Experience: React.FC = () => {
       company: 'Google Developer Student Clubs (GDSC)',
       location: 'University Club',
       period: '2023 - Present',
-      description: 'Built projects, hosted coding workshops, and mentored peers in Frontend Development, fostering a collaborative learning environment.',
+      description: 'Built projects and attended google fests, coding workshops with peers in Frontend Development, fostering a collaborative learning environment.',
       responsibilities: [
-        'Mentoring students in frontend development',
-        'Organizing and hosting coding workshops',
+        'Participating in coding workshops',
         'Building educational projects and demos',
         'Contributing to open-source initiatives'
       ],
@@ -37,8 +36,7 @@ const Experience: React.FC = () => {
       type: 'leadership',
       title: 'Head Girl',
       company: 'St. George Academy',
-      location: 'Nairobi, Kenya',
-      period: '2021 - 2022',
+      location: 'Matuu-Machakos, Kenya',
       description: 'Led school initiatives, promoted teamwork among students, and fostered inclusivity across all school activities and programs.',
       responsibilities: [
         'Led student initiatives and programs',
@@ -51,14 +49,7 @@ const Experience: React.FC = () => {
   ];
 
   const education = [
-    {
-      degree: 'Software Engineering: Full Stack Web Development',
-      institution: 'Moringa School + Flatiron School',
-      location: 'Nairobi, Kenya',
-      period: 'June 2024 - February 2025',
-      status: 'In Progress',
-      description: 'Intensive program covering modern web development technologies, best practices, and real-world project experience.'
-    },
+    
     {
       degree: 'BSc Computer Science',
       institution: 'Murang\'a University of Technology',
@@ -66,7 +57,23 @@ const Experience: React.FC = () => {
       period: 'September 2022 - Present',
       status: 'In Progress',
       description: 'Comprehensive computer science program covering algorithms, data structures, software engineering, and computer systems.'
-    }
+    },
+    {
+      degree: 'GenAI Access Program',
+      institution: 'Moringa School + Flatiron School',
+      location: 'Nairobi, Kenya',
+      period: 'August 2026 - present',
+      status: 'In Progress',
+      description: 'Focused program on Generative AI concepts, tools, and real-world applications.'
+    },
+    {
+      degree: 'Software Engineering: Full Stack Web Development',
+      institution: 'Moringa School + Flatiron School',
+      location: 'Nairobi, Kenya',
+      period: 'June 2024 - February 2025',
+      status: 'Completed',
+      description: 'Intensive program covering modern web development technologies, best practices, and real-world project experience.'
+    },
   ];
 
   return (

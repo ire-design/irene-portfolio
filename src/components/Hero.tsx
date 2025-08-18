@@ -1,5 +1,6 @@
 import React from 'react';
 import { ChevronDown, Download, Mail } from 'lucide-react';
+import cvFile from '../assets/Irene_Musau_resume.pdf'
 
 const Hero: React.FC = () => {
   return (
@@ -8,9 +9,9 @@ const Hero: React.FC = () => {
         <div className="max-w-4xl mx-auto">
           <div className="mb-8">
             <img
-              src="./assets/imm.jpg"
+              src="src/assets/imm.jpeg"
               alt="Irene Musau"
-              className="w-32 h-32 rounded-full mx-auto mb-6 object-cover shadow-lg ring-4 ring-white"
+              className="w-90 h-90 rounded-full mx-auto mb-6 object-cover shadow-lg ring-4 ring-white"
             />
           </div>
           
@@ -19,7 +20,10 @@ const Hero: React.FC = () => {
           </h1>
           
           <h2 className="text-xl md:text-2xl text-gray-600 mb-6">
-            Software Engineer || Full Stack Developer 
+            
+            <span className="text-blue-700"> || </span>
+             Web Developer 
+            <span className="text-blue-700"> ||</span>
           </h2>
           
           <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto leading-relaxed">
@@ -43,6 +47,18 @@ const Hero: React.FC = () => {
               View Projects
             </a>
           </div>
+
+           <div className="mb-8 flex justify-center">
+            <a
+              href={cvFile}
+              download="Irene_Musau_resume.pdf"
+              className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-8 py-3 rounded-lg font-semibold hover:from-blue-700 hover:to-indigo-700 transition-all duration-300 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl"
+            >
+              <Download size={20} />
+              Download Resume
+            </a>
+          </div>
+          <br />
           
           <div className="text-sm text-gray-500">
             📍 Nairobi, Kenya

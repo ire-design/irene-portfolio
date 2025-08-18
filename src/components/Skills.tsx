@@ -11,7 +11,7 @@ const Skills: React.FC = () => {
     {
       icon: <Globe className="text-emerald-600" size={28} />,
       title: 'Frameworks & Libraries',
-      skills: ['React.js', 'Node.js', 'Express.js', 'Flask', 'Bootstrap']
+      skills: ['React.js', 'Node.js', 'Flask,Django', 'Bootstrap']
     },
     {
       icon: <Database className="text-purple-600" size={28} />,

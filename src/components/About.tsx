@@ -42,20 +42,15 @@ const About: React.FC = () => {
                 Passionate Developer Creating Digital Solutions
               </h3>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                I'm a dedicated Software Engineer with a strong foundation in modern web technologies. 
-                Currently pursuing my BSc in Computer Science at Murang'a University of Technology while 
-                completing intensive Full Stack Web Development training at Moringa School.
-              </p>
+                A developer with a strong foundation in modern web technologies. <br></br>
+                Currently, I am pursuing a BSc in Computer Science at Murang'a University of Technology and studying Generative AI at Moringa School in collaboration with WeThinkCode.
+                I also recently graduated from Moringa School’s Software Engineering program, an intensive Full-Stack Web Development training.</p>
               <p className="text-gray-600 mb-6 leading-relaxed">
                 My journey in tech has been driven by a passion for solving complex problems and creating 
                 impactful solutions. I specialize in JavaScript ecosystems, Python development, and database 
                 optimization, always focusing on delivering scalable and user-friendly applications.
               </p>
-              <p className="text-gray-600 mb-8 leading-relaxed">
-                When I'm not coding, I enjoy mentoring peers in frontend development through GDSC Club 
-                and contributing to open-source projects. I believe in continuous learning and staying 
-                updated with the latest technologies.
-              </p>
+              
             </div>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">

@@ -7,21 +7,21 @@ const Projects: React.FC = () => {
       title: 'Fitness and Nutrition Tracker',
       description: 'A comprehensive CLI application for managing clients\' fitness routines and nutritional plans with enhanced data accuracy.',
       technologies: ['Python', 'Flask', 'SQLAlchemy', 'CLI'],
-      image: 'src/assets/gym.jpg',
+      image: 'src/assets/nutrition.jpg',
       features: ['Client Management', 'Workout Tracking', 'Nutrition Planning', 'Data Analytics']
     },
     {
       title: 'Book-A-Room',
       description: 'React.js and TypeScript application for booking meeting rooms with real-time availability updates and intuitive navigation.',
       technologies: ['React.js', 'TypeScript', 'Real-time Updates'],
-      image: 'https://images.pexels.com/photos/1181396/pexels-photo-1181396.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
+      image: 'src/assets/book-a-room.jpg',
       features: ['Real-time Availability', 'Room Booking', 'User Dashboard', 'Calendar Integration']
     },
     {
       title: 'Book-A-Meal',
       description: 'Collaborative meal ordering platform featuring dynamic menus and secure order processing for enhanced user experience.',
       technologies: ['HTML5', 'CSS3', 'JavaScript', 'Python', 'Flask'],
-      image: 'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
+      image: './src/assets/book-a-meal.jpg',
       features: ['Dynamic Menus', 'Order Processing', 'Payment Integration', 'User Authentication']
     },
     {
@@ -35,7 +35,7 @@ const Projects: React.FC = () => {
       title: 'Car Rental Service',
       description: 'Platform for managing car rentals with vehicle listings, booking management, and user authentication.',
       technologies: ['Full Stack', 'User Authentication', 'Booking System'],
-      image: 'https://images.pexels.com/photos/116675/pexels-photo-116675.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
+      image: '/src/assets/car-rental.jpg',
       features: ['Vehicle Listings', 'Booking Management', 'User Profiles', 'Payment Processing']
     }
   ];

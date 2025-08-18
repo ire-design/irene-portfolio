@@ -33,20 +33,12 @@ const Contact: React.FC = () => {
                       href="mailto:irene@gmail.com"
                       className="text-blue-700 hover:underline"
                     >
-                      irene@gmail.com
+                      irenemwikalii04@gmail.com
                     </a>
                   </div>
                 </div>
                 
-                <div className="flex items-center gap-4 p-4 bg-gray-50 rounded-lg hover:bg-blue-50 transition-colors">
-                  <div className="bg-emerald-600 p-3 rounded-full">
-                    <MapPin className="text-white" size={20} />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-gray-900">Location</h4>
-                    <p className="text-gray-600">Nairobi, Kenya</p>
-                  </div>
-                </div>
+                
                 
                 <div className="flex items-center gap-4 p-4 bg-gray-50 rounded-lg hover:bg-blue-50 transition-colors">
                   <div className="bg-purple-600 p-3 rounded-full">
@@ -82,7 +74,15 @@ const Contact: React.FC = () => {
                   </div>
                 </div>
               </div>
-              
+              <div className="flex items-center gap-4 p-4 bg-gray-50 rounded-lg hover:bg-blue-50 transition-colors">
+                  <div className="bg-emerald-600 p-3 rounded-full">
+                    <MapPin className="text-white" size={20} />
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-gray-900">Location</h4>
+                    <p className="text-gray-600">Nairobi, Kenya</p>
+                  </div>
+                </div>
               <div className="mt-8 p-6 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl">
                 <h4 className="text-lg font-semibold text-gray-900 mb-3">
                   Available For
