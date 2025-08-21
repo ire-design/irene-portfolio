@@ -16,7 +16,7 @@ const Projects: React.FC = () => {
         'Data Analytics',
       ],
       code: 'https://github.com/ire-design/fitness-nutrition-tracker',
-      demo: 'https://fitness-nutrition-tracker.vercel.app', // update if live link differs
+      demo: 'https://fitness-nutrition-tracker.vercel.app', // Adjusted demo link
     },
     {
       title: 'Book-A-Room',
