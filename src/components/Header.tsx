@@ -64,7 +64,7 @@ const Header: React.FC = () => {
               <Linkedin size={20} />
             </a>
             <a
-              href="mailto:irene@gmail.com"
+              href="mailto:irenemwikalii04@gmail.com"
               className="text-gray-600 hover:text-blue-700 transition-colors"
             >
               <Mail size={20} />
@@ -113,7 +113,7 @@ const Header: React.FC = () => {
                 <Linkedin size={20} />
               </a>
               <a
-                href="mailto:irene@gmail.com"
+                href="mailto:irenemwikalii04@gmail.com"
                 className="text-gray-600 hover:text-blue-700 transition-colors"
               >
                 <Mail size={20} />
