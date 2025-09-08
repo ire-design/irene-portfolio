@@ -16,7 +16,7 @@ const Projects: React.FC = () => {
         'Data Analytics',
       ],
       code: 'https://github.com/ire-design/fitness-nutrition-tracker',
-      demo: 'https://fitness-nutrition-tracker.vercel.app', // Adjusted demo link
+      demo: ''
     },
     {
       title: 'Book-A-Room',
@@ -31,7 +31,7 @@ const Projects: React.FC = () => {
         'Calendar Integration',
       ],
       code: 'https://github.com/ire-design/book-a-room',
-      demo: 'https://book-a-room.vercel.app',
+      demo: '',
     },
     {
       title: 'Book-A-Meal',
@@ -46,7 +46,7 @@ const Projects: React.FC = () => {
         'User Authentication',
       ],
       code: 'https://github.com/ire-design/book-a-meal',
-      demo: 'https://book-a-meal.vercel.app',
+      demo: '',
     },
     {
       title: 'Gym Management System',
@@ -61,7 +61,7 @@ const Projects: React.FC = () => {
         'Equipment Management',
       ],
       code: 'https://github.com/ire-design/gym-management-system',
-      demo: 'https://gym-management-system.vercel.app',
+      demo: '',
     },
     {
       title: 'Car Rental Service',
@@ -76,7 +76,7 @@ const Projects: React.FC = () => {
         'Payment Processing',
       ],
       code: 'https://github.com/ire-design/car-rental-service',
-      demo: 'https://car-rental-service.vercel.app',
+      demo: '',
     },
   ];
 
