@@ -60,7 +60,7 @@ const Experience: React.FC = () => {
     },
     {
       degree: 'GenAI Access Program',
-      institution: 'Moringa School + Flatiron School',
+      institution: 'Moringa School + WeThinkCode',
       location: 'Nairobi, Kenya',
       period: 'August 2026 - present',
       status: 'In Progress',
@@ -159,7 +159,7 @@ const Experience: React.FC = () => {
                     className="bg-white rounded-xl p-6 shadow-sm hover:shadow-lg transition-all duration-200 border-l-4 border-emerald-600"
                   >
                     <div className="flex items-start justify-between mb-4">
-                      <h4 className="text-lg font-bold text-gray-900">
+                      <h4 className="text-xl font-bold text-gray-900">
                         {edu.degree}
                       </h4>
                       <span className="text-xs bg-emerald-100 text-emerald-700 px-2 py-1 rounded-full font-medium">
@@ -168,7 +168,7 @@ const Experience: React.FC = () => {
                     </div>
                     
                     <div className="mb-3">
-                      <p className="text-emerald-700 font-semibold">{edu.institution}</p>
+                      <p className="text-lg text-emerald-800 font-semibold">{edu.institution}</p>
                       <div className="flex items-center gap-4 text-sm text-gray-600 mt-1">
                         <span className="flex items-center gap-1">
                           <MapPin size={14} />

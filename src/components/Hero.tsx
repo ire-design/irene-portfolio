@@ -23,7 +23,7 @@ const Hero: React.FC = () => {
 
           <h2 className="text-xl md:text-2xl text-gray-600 mb-6">
             <span className="text-blue-700"> || </span>
-            Web Developer
+            Software Developer
             <span className="text-blue-700"> ||</span>
           </h2>
 
@@ -54,7 +54,7 @@ const Hero: React.FC = () => {
             <a
               href="/irene_musau_resume.docx"
               download="Irene_Musau_Resume.docx"
-              className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-8 py-3 rounded-lg font-semibold hover:from-blue-700 hover:to-indigo-700 transition-all duration-300 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl"
+              className="bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold hover:from-blue-700 hover:to-indigo-700 transition-all duration-300 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl"
             >
               <Download size={20} />
               Download Resume
