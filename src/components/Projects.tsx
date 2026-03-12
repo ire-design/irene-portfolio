@@ -4,6 +4,51 @@ import { ExternalLink, Code } from 'lucide-react';
 const Projects: React.FC = () => {
   const projects = [
     {
+      title: 'Brisit Technologies',
+      description:
+        'A professional tech company website offering device repair, managed IT, on-site support and data backup services with dedicated services, about, and contact pages.',
+      technologies: ['React', 'Vercel'],
+      image: '/servicess.png',
+      features: [
+        'Device Repair',
+        'Managed IT',
+        'On-site Support',
+        'Data Backup',
+      ],
+      code: 'https://github.com/ire-design/brisit-technologies',
+      demo: 'https://brisit-technologies.vercel.app/',
+    },
+    {
+      title: 'My Portfolio',
+      description:
+        'A personal developer portfolio showcasing experience, technical skills, featured projects, education, and contact details in a clean responsive layout.',
+      technologies: ['React', 'TypeScript', 'Tailwind CSS'],
+      image: '/Portfolio.png',
+      features: [
+        'About Section',
+        'Skills Section',
+        'Projects Showcase',
+        'Experience & Contact',
+      ],
+      code: 'https://github.com/ire-design/irene-portfolio',
+      demo: 'https://irene-musau.netlify.app/',
+    },
+    {
+      title: 'Quote of the Day',
+      description:
+        'A lightweight motivational app that displays random quotes and lets users generate a new quote, share it, and save favorites.',
+      technologies: ['JavaScript', 'React', 'Vercel'],
+      image: '/Quote.png',
+      features: [
+        'Random Quotes',
+        'New Quote Generator',
+        'Share Quote',
+        'Favorite Quotes',
+      ],
+      code: 'https://github.com/ire-design/quote-of-the-day',
+      demo: 'https://quote-of-the-day-ruddy-zeta.vercel.app/',
+    },
+    {
       title: 'Fitness and Nutrition Tracker',
       description:
         "A comprehensive CLI application for managing clients' fitness routines and nutritional plans with enhanced data accuracy.",
@@ -16,68 +61,69 @@ const Projects: React.FC = () => {
         'Data Analytics',
       ],
       code: 'https://github.com/ire-design/fitness-nutrition-tracker',
-      demo: ''
-    },
-    {
-      title: 'Book-A-Room',
-      description:
-        'React.js and TypeScript application for booking meeting rooms with real-time availability updates and intuitive navigation.',
-      technologies: ['React.js', 'TypeScript', 'Real-time Updates'],
-      image: '/book-a-room.jpg',
-      features: [
-        'Real-time Availability',
-        'Room Booking',
-        'User Dashboard',
-        'Calendar Integration',
-      ],
-      code: 'https://github.com/ire-design/book-a-room',
       demo: '',
     },
-    {
-      title: 'Book-A-Meal',
-      description:
-        'Collaborative meal ordering platform featuring dynamic menus and secure order processing for enhanced user experience.',
-      technologies: ['HTML5', 'CSS3', 'JavaScript', 'Python', 'Flask'],
-      image: '/book-a-meal.jpg',
-      features: [
-        'Dynamic Menus',
-        'Order Processing',
-        'Payment Integration',
-        'User Authentication',
-      ],
-      code: 'https://github.com/ire-design/book-a-meal',
-      demo: '',
-    },
-    {
-      title: 'Gym Management System',
-      description:
-        'Comprehensive system for gym operations including member management and class scheduling to improve administrative efficiency.',
-      technologies: ['Python', 'Flask', 'Database Management'],
-      image: '/gym.jpg',
-      features: [
-        'Member Management',
-        'Class Scheduling',
-        'Payment Tracking',
-        'Equipment Management',
-      ],
-      code: 'https://github.com/ire-design/gym-management-system',
-      demo: '',
-    },
-    {
-      title: 'Car Rental Service',
-      description:
-        'Platform for managing car rentals with vehicle listings, booking management, and user authentication.',
-      technologies: ['Full Stack', 'User Authentication', 'Booking System'],
-      image: '/car-rental.jpg',
-      features: [
-        'Vehicle Listings',
-        'Booking Management',
-        'User Profiles',
-        'Payment Processing',
-      ],
-      code: 'https://github.com/ire-design/car-rental-service',
-      demo: '',
-    },
+    // },
+    // {
+    //   title: 'Book-A-Room',
+    //   description:
+    //     'React.js and TypeScript application for booking meeting rooms with real-time availability updates and intuitive navigation.',
+    //   technologies: ['React.js', 'TypeScript', 'Real-time Updates'],
+    //   image: '/book-a-room.jpg',
+    //   features: [
+    //     'Real-time Availability',
+    //     'Room Booking',
+    //     'User Dashboard',
+    //     'Calendar Integration',
+    //   ],
+    //   code: 'https://github.com/ire-design/book-a-room',
+    //   demo: '',
+    // },
+    // {
+    //   title: 'Book-A-Meal',
+    //   description:
+    //     'Collaborative meal ordering platform featuring dynamic menus and secure order processing for enhanced user experience.',
+    //   technologies: ['HTML5', 'CSS3', 'JavaScript', 'Python', 'Flask'],
+    //   image: '/book-a-meal.jpg',
+    //   features: [
+    //     'Dynamic Menus',
+    //     'Order Processing',
+    //     'Payment Integration',
+    //     'User Authentication',
+    //   ],
+    //   code: 'https://github.com/ire-design/book-a-meal',
+    //   demo: '',
+    // },
+    // {
+    //   title: 'Gym Management System',
+    //   description:
+    //     'Comprehensive system for gym operations including member management and class scheduling to improve administrative efficiency.',
+    //   technologies: ['Python', 'Flask', 'Database Management'],
+    //   image: '/gym.jpg',
+    //   features: [
+    //     'Member Management',
+    //     'Class Scheduling',
+    //     'Payment Tracking',
+    //     'Equipment Management',
+    //   ],
+    //   code: 'https://github.com/ire-design/gym-management-system',
+    //   demo: '',
+    // },
+    // {
+    //   title: 'Car Rental Service',
+    //   description:
+    //     'Platform for managing car rentals with vehicle listings, booking management, and user authentication.',
+    //   technologies: ['Full Stack', 'User Authentication', 'Booking System'],
+    //   image: '/car-rental.jpg',
+    //   features: [
+    //     'Vehicle Listings',
+    //     'Booking Management',
+    //     'User Profiles',
+    //     'Payment Processing',
+    //   ],
+    //   code: 'https://github.com/ire-design/car-rental-service',
+    //   demo: '',
+    // },
   ];
 
   return (
