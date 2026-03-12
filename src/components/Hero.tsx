@@ -52,8 +52,8 @@ const Hero: React.FC = () => {
 
           <div className="mb-8 flex justify-center">
             <a
-              href="/irene_musau_resume.docx"
-              download="Irene_Musau_Resume.docx"
+              href="/Irene_Musau_Resume.pdf"
+              download="Irene_Musau_Resume.pdf"
               className="bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold hover:from-blue-700 hover:to-indigo-700 transition-all duration-300 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl"
             >
               <Download size={20} />
